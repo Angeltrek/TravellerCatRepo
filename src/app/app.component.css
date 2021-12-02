@@ -54,7 +54,7 @@ img{
 }
 
 .background-6{
-    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.8)), url(../assets/images/LogoPagina.png) no-repeat;
+    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.8)), url(https://i.ibb.co/N7s6nbL/Logo-de-pagina.png) no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
