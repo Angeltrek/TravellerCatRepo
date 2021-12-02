@@ -1,0 +1,25 @@
+img {
+    width: 7vh;
+    height: 7vh;
+    padding: 1rem;
+}
+
+footer {
+    color: white;
+    padding: 4rem 0;
+    height: 100vh;
+}
+
+li, p{
+    font-size: 0 1rem;
+}
+
+hr {
+    border: 2px solid #ffde59;
+    border-radius: 5px;
+    width: 60%;
+}
+
+.footer-copyright small{
+    color: #57FAE1;
+}

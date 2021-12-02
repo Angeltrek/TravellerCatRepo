@@ -1,0 +1,78 @@
+<div class="container-fluid">
+    <div class="continent-header">
+        <img src="https://wallpapercave.com/wp/wp8939451.jpg" alt="">
+        <div class="continent-info">
+            <h2>Galeria</h2>
+        </div>
+    </div>
+</div>
+
+<div class="background-6">
+    <div class="container">
+
+        <h2>America</h2>
+
+        <ngb-carousel [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
+            <ng-template ngbSlide *ngFor="let image of america">
+            <div class="picsum-img-wrapper">
+                <img [src]="image" alt="Random slide">
+            </div>
+            <div class="carousel-caption">
+                <h3>No mouse navigation</h3>
+                <p>This carousel hides navigation arrows and indicators.</p>
+            </div>
+            </ng-template>
+        </ngb-carousel>
+        
+        <hr>
+
+        <h2>Europa</h2>
+
+        <ngb-carousel [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
+            <ng-template ngbSlide *ngFor="let image of europa">
+                <div class="picsum-img-wrapper">
+                <img [src]="image" alt="Random slide">
+                </div>
+                <div class="carousel-caption">
+                <h3>No mouse navigation</h3>
+                <p>This carousel hides navigation arrows and indicators.</p>
+                </div>
+            </ng-template>
+            </ngb-carousel>
+            
+            <hr>
+        <h2>Asia</h2>
+
+        <ngb-carousel [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
+            <ng-template ngbSlide *ngFor="let image of asia">
+            <div class="picsum-img-wrapper">
+                <img [src]="image" alt="Random slide">
+            </div>
+            <div class="carousel-caption">
+                <h3>No mouse navigation</h3>
+                <p>This carousel hides navigation arrows and indicators.</p>
+            </div>
+            </ng-template>
+        </ngb-carousel>
+        
+        <hr>
+
+        <h2>Africa</h2>
+
+        <ngb-carousel [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
+            <ng-template ngbSlide *ngFor="let image of africa">
+            <div class="picsum-img-wrapper">
+                <img [src]="image" alt="Random slide">
+            </div>
+            <div class="carousel-caption">
+                <h3>No mouse navigation</h3>
+                <p>This carousel hides navigation arrows and indicators.</p>
+            </div>
+            </ng-template>
+        </ngb-carousel>
+        
+        <hr>
+
+    </div>
+
+</div>
