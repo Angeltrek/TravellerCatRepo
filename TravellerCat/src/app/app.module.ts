@@ -7,12 +7,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ContinentesComponent } from './continentes/continentes.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
+import { GaleriaComponent } from './galeria/galeria.component';
 @NgModule({
   declarations: [
     AppComponent,
     ContinentesComponent,
     FooterComponent,
-    NavComponent
+    NavComponent,
+    GaleriaComponent
   ],
   imports: [
     BrowserModule,
