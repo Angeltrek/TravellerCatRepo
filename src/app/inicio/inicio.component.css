@@ -1,8 +1,12 @@
+/* Esta clase sirve para que haya una imagen al inicio de la pagina */
+
 .banner img{
     width: 100%;
     height: 100vh;
     object-fit: cover;
 }
+
+/* Esta clase solo sirve para darle un padding a donde se encuentran nuestras cards */
 
 .card-container{
     padding: 5rem 0;

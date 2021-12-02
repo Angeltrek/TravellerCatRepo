@@ -1,14 +1,20 @@
+/* logo se usa para mostrar el logo en el boton cuando la pantalla sea <= 600px */
+
 .logo img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
+/* brand se usa para mostrar el logo en el navbar cuando la pantalla sea > 600px */
+
 .brand img{
     width: 280px;
     height: 60px;
     object-fit: cover;
 }
+
+/* #toggle son las propiedades del boton que se muestra cuando la pagina es <= 600px */
 
 #toggle{
     width: 160px;
@@ -22,6 +28,8 @@
 #toggle:hover{
     background-color: #ffde59;
 }
+
+/* Se le dan todas las propiedades a nuestros elementos dentro del navbar */
 
 .navbar{
     width: 100%;
@@ -73,11 +81,14 @@
     transition: 0.1s all ease;
 }
 
+/* Esta clase sirve para hacer toggle los elementos cuando la pantalla sea <= 600px */
+
 .show{
     display: flex;
 }
 
 @media(max-width: 600px){
+    /* Esta parte da las propiedades cuando la pagina es menor a 600px */
     #toggle{
         display: block;
     }
@@ -88,6 +99,7 @@
 }
 
 @media(min-width: 600px){
+    /* Esta parte da las propiedades cuando la pagina es mayor a 600px */
     .nav-links{
         display: flex;
     }

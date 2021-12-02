@@ -1,8 +1,12 @@
+/* Se le da un width y height a nuestras imagenes de los logos */
+
 img {
     width: 7vh;
     height: 7vh;
     padding: 1rem;
 }
+
+/* Ponemos el color de la letra que queremos en todo el footer */
 
 footer {
     color: white;
@@ -14,11 +18,15 @@ li, p{
     font-size: 0 1rem;
 }
 
+/* Le damos otro color a nuestra linea horizontal */
+
 hr {
     border: 2px solid #ffde59;
     border-radius: 5px;
     width: 60%;
 }
+
+/* Le damos otro color a nuestro contenido del copyright */
 
 .footer-copyright small{
     color: #57FAE1;

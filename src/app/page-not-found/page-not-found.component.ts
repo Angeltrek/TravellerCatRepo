@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-page-not-found',
   templateUrl: './page-not-found.component.html',
-  styleUrls: ['./page-not-found.component.css', '../app.component.css']
+  styleUrls: ['./page-not-found.component.css', '../app.component.css'] //Se importa el estilo css del app.component
 })
 export class PageNotFoundComponent implements OnInit {
 

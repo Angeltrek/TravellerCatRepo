@@ -1,4 +1,5 @@
 <div class="container-fluid">
+    <!-- Usamos nuestra clase continent-header -->
     <div class="continent-header">
         <img src="https://wallpapercave.com/wp/wp8939451.jpg" alt="">
         <div class="continent-info">
@@ -7,12 +8,16 @@
     </div>
 </div>
 
+<!-- Usamos nuestro background 6 -->
 <div class="background-6">
     <div class="container">
 
         <h2>America</h2>
 
+        <!-- El carrusel importa las condiciones de nuestras flechas e indicadores, los cuales marcan que se van a mostrar -->
+            <!-- Se usa un ngFor para sacar nuestras imagenes de cada continente -->
         <ngb-carousel [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
+            <!-- imagenes del array america -->
             <ng-template ngbSlide *ngFor="let image of america">
             <div class="picsum-img-wrapper">
                 <img [src]="image" alt="Random slide">
@@ -25,6 +30,7 @@
         <h2>Europa</h2>
 
         <ngb-carousel [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
+            <!-- imagenes del array europa -->
             <ng-template ngbSlide *ngFor="let image of europa">
                 <div class="picsum-img-wrapper">
                 <img [src]="image" alt="Random slide">
@@ -36,6 +42,7 @@
         <h2>Asia</h2>
 
         <ngb-carousel [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
+            <!-- imagenes del array asia -->
             <ng-template ngbSlide *ngFor="let image of asia">
             <div class="picsum-img-wrapper">
                 <img [src]="image" alt="Random slide">
@@ -48,6 +55,7 @@
         <h2>Africa</h2>
 
         <ngb-carousel [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
+            <!-- imagenes del array africa -->
             <ng-template ngbSlide *ngFor="let image of africa">
             <div class="picsum-img-wrapper">
                 <img [src]="image" alt="Random slide">
@@ -60,3 +68,4 @@
     </div>
 
 </div>
+<!-- Cerramos nuestro background 6 -->

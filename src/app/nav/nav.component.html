@@ -1,15 +1,17 @@
 
 <nav class="navbar">
         <div class="navbar-container">
+            <!-- Este sapn solo se despliega cuando la pantalla es > 600px -->
             <span class="brand"><img src="https://i.ibb.co/N7s6nbL/Logo-de-pagina.png" alt=""></span>
             <ul class="nav-links">
-                <li><a class="navlink" routerLink="/inicio">Inicio</a></li>
-                <li><a class="navlink" routerLink="/continentes">Continentes</a></li>
-                <li><a class="navlink" routerLink="/galeria">Galeria</a></li>
-                <li><a class="navlink" routerLink="/about">Nosotros</a></li>
+                <li><a class="navlink" routerLink="/inicio">Inicio</a></li> <!-- Se linkea la ruta inicio -->
+                <li><a class="navlink" routerLink="/continentes">Continentes</a></li> <!-- Se linkea la ruta continentes -->
+                <li><a class="navlink" routerLink="/galeria">Galeria</a></li> <!-- Se linkea la ruta galeria -->
+                <li><a class="navlink" routerLink="/about">Nosotros</a></li> <!-- Se linkea la ruta about -->
             </ul>
         </div>
         <button id="toggle">
+            <!-- Este logo solo se despliega cuando la pantalla es <= 600px -->
             <span class="logo"><img src="https://i.ibb.co/N7s6nbL/Logo-de-pagina.png" alt=""></span>
         </button>
 </nav>
