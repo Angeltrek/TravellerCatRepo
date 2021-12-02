@@ -1,0 +1,21 @@
+.about-us{
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.about-us p{
+    font-size: 1rem;
+}
+
+.about-us h3{
+    font-size: 2rem;
+}
+
+
+.our-image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: 5rem auto;
+}

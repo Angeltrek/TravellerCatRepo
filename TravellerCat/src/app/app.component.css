@@ -24,31 +24,37 @@ img{
 
 
 .background-1{
-    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.8)), url(https://i.pinimg.com/originals/7f/78/45/7f78454161dbde9e3da0ee9d218c7641.jpg) no-repeat;
+    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.8)), url(https://fondosmil.com/fondo/11773.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;  
 }
 
 .background-2{
-    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.8)), url(https://www.teahub.io/photos/full/214-2147832_3840x2160-beautiful-hills-4k-nature-wallpaper-data-4k.jpg) no-repeat;
+    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.8)), url(https://wallpaperaccess.com/full/2248063.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .background-3{
-    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.8)), url(https://static.guiarepsol.com/gr-cms/media/filer_public/20/1f/201f19c1-90b0-4b2d-942e-fb2aefe08b7b/okshutterstock_650168665.jpg) no-repeat;
+    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.8)), url(https://cdn.wallpapersafari.com/7/69/dxBmov.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .background-4{
-    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.8)), url(https://media.revistagq.com/photos/5ed5285ef95b900ced636e6d/16:9/w_2560%2Cc_limit/GettyImages-619394704.jpg) no-repeat;
+    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.8)), url(https://wallpapercave.com/wp/wp2643546.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
 .background-5{
-    background: url(https://media.revistagq.com/photos/5ed5285ef95b900ced636e6d/16:9/w_2560%2Cc_limit/GettyImages-619394704.jpg) no-repeat;
+    background: url(https://www.teahub.io/photos/full/18-184327_1080p-hd-wallpapers.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.background-6{
+    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.8)), url(../assets/images/LogoPagina.png) no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }

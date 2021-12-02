@@ -8,13 +8,17 @@ import { ContinentesComponent } from './continentes/continentes.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
 import { GaleriaComponent } from './galeria/galeria.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 @NgModule({
   declarations: [
     AppComponent,
     ContinentesComponent,
     FooterComponent,
     NavComponent,
-    GaleriaComponent
+    GaleriaComponent,
+    InicioComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
