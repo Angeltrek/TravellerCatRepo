@@ -3,14 +3,21 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ContinentesComponent } from './continentes/continentes.component';
+import { FooterComponent } from './footer/footer.component';
+import { NavComponent } from './nav/nav.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ContinentesComponent,
+    FooterComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

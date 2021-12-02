@@ -1,0 +1,98 @@
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.brand img{
+    width: 280px;
+    height: 40px;
+    object-fit: cover;
+}
+
+#toggle{
+    width: 160px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    display: none;
+    outline: none;
+}
+
+#toggle:hover{
+    background-color: #ffde59;
+}
+
+.navbar{
+    width: 100%;
+    background-color: #fffef9;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    transition: all 0.1s ease;
+}
+
+.navbar:hover{
+    transition: all 0.1s ease;
+    opacity: 1;
+}
+
+.navbar-container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links{
+    list-style: none;
+    flex-wrap: wrap;
+    display: none;
+}
+
+.navbar .nav-links li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.3rem 1.2rem;
+}
+
+.navlink{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    transition: 0.1s all ease;
+    font-size: 1.2rem;
+}
+
+.navlink:hover{
+    color: #ffde59;
+    background-color:rgb(54, 53, 53) ;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.1s all ease;
+}
+
+.show{
+    display: flex;
+}
+
+@media(max-width: 600px){
+    #toggle{
+        display: block;
+    }
+
+    .brand img{
+        display: none;
+    }
+}
+
+@media(min-width: 600px){
+    .nav-links{
+        display: flex;
+    }
+
+    .brand img{
+        display: block;
+    }
+}
