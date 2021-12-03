@@ -6,16 +6,20 @@ img {
     padding: 1rem;
 }
 
+div{
+    padding: 5vh 0;
+}
+
 /* Ponemos el color de la letra que queremos en todo el footer */
 
 footer {
     color: white;
     padding: 4rem 0;
-    height: 100vh;
+    height: auto;
 }
 
 li, p{
-    font-size: 0 1rem;
+    font-size: 1rem;
 }
 
 /* Le damos otro color a nuestra linea horizontal */

@@ -1,1 +1,143 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2rem;
+}
+
+h2{
+    font-size: 5vh;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Exo 2', sans-serif;
+}
+
+hr {
+    border: 10px solid #57FAE1;
+    border-radius: 5px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Los siguientes backgrounds le dan vida a la pagina, se muestran en el fondo del contenido*/
+
+
+.background-1{
+    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.8)), /* Le da transparencia a la imagen */ url(https://fondosmil.com/fondo/11773.jpg) /* este es el link de la imagen */ no-repeat; 
+    background-size: 100vw contain;
+    background-attachment: fixed;  
+}
+
+/* Los demas background 2, 3, 4 y 6 tienen la misma propiedad que el 1 */
+
+.background-2{
+    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.8)), url(https://wallpaperaccess.com/full/2248063.jpg) no-repeat;
+    background-size: 100vw cover;
+    background-attachment: fixed;
+}
+
+.background-3{
+    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.8)), url(https://cdn.wallpapersafari.com/7/69/dxBmov.jpg) no-repeat;
+    background-size: 100vw cover;
+    background-attachment: fixed;
+}
+
+.background-4{
+    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.8)), url(https://wallpapercave.com/wp/wp2643546.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw cover;
+}
+
+/* El background 6 no tiene transparencia, tiene color solido */
+
+.background-5{
+    background: url(https://www.teahub.io/photos/full/18-184327_1080p-hd-wallpapers.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw cover;
+}
+
+.background-6{
+    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.8)), url(https://i.ibb.co/N7s6nbL/Logo-de-pagina.png) no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw;
+}
+
+/* El siguiente .continent-header se encarga de poner una imagen enmedio, hacerla transparente y poner un titulo y descripcion en el centro */
+
+.continent-header{
+    width: 100%;
+    height: 1080px;
+    background-color: rgb(39, 39, 39);
+}
+
+
+.continent-header img{
+    opacity: 0.25;
+}
+
+.continent-header .continent-info{
+    color: #fff;
+    position: relative;
+    bottom: 55%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.continent-header h2{
+    font-size: 10vw;
+}
+
+/* basic-info solo despliega de la manera deseada el texto y las listas */
+
+.basic-info h2, .basic-info h3{
+    padding-left: 3rem;
+    margin: 3rem 0;
+}
+
+.basic-info ul{
+    padding-left: 6rem;
+}
+
+/* .info-style-1 sirve para desplegar la imagen con respecto al texto, si el texto es mas largo, la imagen crece, ademas, le da un borde a las imagenes */
+
+.info-style-1{
+    margin: 5rem 0;
+    border-left: 2px solid rgb(201, 199, 199);
+    border-top: 2px solid rgb(201, 199, 199);
+}
+
+.info-style-1 img{
+    height: 100%;
+    max-height: 8000px;
+    min-height: 500px;
+}
+
+/* .info-style-2 sirve para poner una imagen redonda al 100% y se despliega de manera deseada */
+
+.info-style-2 {
+    margin: 5rem 0;
+    border-bottom: 2px solid rgb(201, 199, 199);
+    border-right: 2px solid rgb(201, 199, 199);
+}
+
+.info-style-2 img{
+    height: 100%;
+    max-height: 1900px;
+    min-height: 200px;
+    border-radius: 40px;
+    border-right: 5px solid rgb(248, 246, 246);
+    border-bottom: 5px solid rgb(248, 246, 246);
+}
+
+.info-style-2 .row{
+    margin: 3rem 0;
+}
+
+/* Aqui solo se le da un margen a nuestros contenedores de informacion */
+
+.info-style-1 h2, .info-style-2 h2{
+    margin: 3rem 0.7rem;
+}

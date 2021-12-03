@@ -6,8 +6,19 @@
     object-fit: cover;
 }
 
-/* Esta clase solo sirve para darle un padding a donde se encuentran nuestras cards */
+/* Esta clase solo sirve para darle un padding a donde se encuentran nuestras cards y centrarlas */
 
 .card-container{
     padding: 5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Redimensionamos nuestras cards */
+
+.card{
+    width: 80%;
+    margin: 5rem auto ;
 }

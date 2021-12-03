@@ -4,7 +4,7 @@ import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap'; //Se importa nuest
 @Component({
   selector: 'app-galeria',
   templateUrl: './galeria.component.html',
-  styleUrls: ['./galeria.component.css', '../app.component.css'], //Se importa el estilo css del app.component
+  styleUrls: ['./galeria.component.css'],
   providers: [NgbCarouselConfig] //Declaramos nuestro carrusel como proveedor
 })
 export class GaleriaComponent implements OnInit {
